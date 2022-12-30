@@ -1,0 +1,24 @@
+[Cloak of Darkness Updated]
+==
+[START]
+Intro
+{Foyer of the Opera House}
+-> south INDENT
+  <Bar>
+  DEDENT
+-> west INDENT
+  <Cloakroom>
+  DEDENT
+-> north INDENT
+  <Unusable>
+	==
+	[Unusable]
+	-> first INDENT
+    Unusable?
+    DEDENT
+	-> INDENT
+    Unusable
+    DEDENT
+  --
+  DEDENT
+--

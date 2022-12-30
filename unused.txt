@@ -1,0 +1,31 @@
+[Cloak of Darkness Updated]
+
+[START]
+Intro
+{Foyer of the Opera House}
+-> south INDENT <Bar> DEDENT
+-> west INDENT <Cloakroom> DEDENT
+-> north
+	<Unusable>
+	==
+	[Unusable]
+	-> first
+		Unusable?
+	->
+		Unusable
+==
+{Cloakroom}
+-> cloak
+	Hang cloak?
+->
+	Take cloak?
+<Foyer of the Opera House>
+==
+{Bar}
+-> cloak
+	<Dark>
+-> disturbed
+	Lose
+->
+	Win
+<END>

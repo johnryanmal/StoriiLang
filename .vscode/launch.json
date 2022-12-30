@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "configurations": [
+    {
+      "name": "Debug ANTLR4 grammar",
+      "type": "antlr-debug",
+      "request": "launch",
+      "input": "test.txt",
+      "grammar": "StoriiParser.g4",
+      "actionFile": "actions.js",
+      "startRule": "program",
+      "printParseTree": true,
+      "visualParseTree": true
+    }
+  ]
+}
