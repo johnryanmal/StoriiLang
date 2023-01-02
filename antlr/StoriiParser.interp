@@ -46,11 +46,11 @@ system
 gate
 room
 path
-page
-node
+stmt
+link
 header
 label
-link
+goto
 title
 name
 split

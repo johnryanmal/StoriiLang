@@ -71,21 +71,21 @@ class StoriiParserListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by StoriiParser#page.
-    def enterPage(self, ctx:StoriiParser.PageContext):
+    # Enter a parse tree produced by StoriiParser#stmt.
+    def enterStmt(self, ctx:StoriiParser.StmtContext):
         pass
 
-    # Exit a parse tree produced by StoriiParser#page.
-    def exitPage(self, ctx:StoriiParser.PageContext):
+    # Exit a parse tree produced by StoriiParser#stmt.
+    def exitStmt(self, ctx:StoriiParser.StmtContext):
         pass
 
 
-    # Enter a parse tree produced by StoriiParser#node.
-    def enterNode(self, ctx:StoriiParser.NodeContext):
+    # Enter a parse tree produced by StoriiParser#link.
+    def enterLink(self, ctx:StoriiParser.LinkContext):
         pass
 
-    # Exit a parse tree produced by StoriiParser#node.
-    def exitNode(self, ctx:StoriiParser.NodeContext):
+    # Exit a parse tree produced by StoriiParser#link.
+    def exitLink(self, ctx:StoriiParser.LinkContext):
         pass
 
 
@@ -107,12 +107,12 @@ class StoriiParserListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by StoriiParser#link.
-    def enterLink(self, ctx:StoriiParser.LinkContext):
+    # Enter a parse tree produced by StoriiParser#goto.
+    def enterGoto(self, ctx:StoriiParser.GotoContext):
         pass
 
-    # Exit a parse tree produced by StoriiParser#link.
-    def exitLink(self, ctx:StoriiParser.LinkContext):
+    # Exit a parse tree produced by StoriiParser#goto.
+    def exitGoto(self, ctx:StoriiParser.GotoContext):
         pass
 
 

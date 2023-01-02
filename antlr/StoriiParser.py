@@ -81,11 +81,11 @@ class StoriiParser ( Parser ):
     RULE_gate = 4
     RULE_room = 5
     RULE_path = 6
-    RULE_page = 7
-    RULE_node = 8
+    RULE_stmt = 7
+    RULE_link = 8
     RULE_header = 9
     RULE_label = 10
-    RULE_link = 11
+    RULE_goto = 11
     RULE_title = 12
     RULE_name = 13
     RULE_split = 14
@@ -94,7 +94,7 @@ class StoriiParser ( Parser ):
     RULE_main = 17
 
     ruleNames =  [ "program", "proc", "block", "system", "gate", "room", 
-                   "path", "page", "node", "header", "label", "link", "title", 
+                   "path", "stmt", "link", "header", "label", "goto", "title", 
                    "name", "split", "fork", "spur", "main" ]
 
     EOF = Token.EOF
@@ -491,11 +491,11 @@ class StoriiParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def page(self, i:int=None):
+        def stmt(self, i:int=None):
             if i is None:
-                return self.getTypedRuleContexts(StoriiParser.PageContext)
+                return self.getTypedRuleContexts(StoriiParser.StmtContext)
             else:
-                return self.getTypedRuleContext(StoriiParser.PageContext,i)
+                return self.getTypedRuleContext(StoriiParser.StmtContext,i)
 
 
         def getRuleIndex(self):
@@ -524,7 +524,7 @@ class StoriiParser ( Parser ):
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt == 1:
                     self.state = 76
-                    self.page()
+                    self.stmt()
 
                 else:
                     raise NoViableAltException(self)
@@ -541,42 +541,42 @@ class StoriiParser ( Parser ):
         return localctx
 
 
-    class PageContext(ParserRuleContext):
+    class StmtContext(ParserRuleContext):
         __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def node(self):
-            return self.getTypedRuleContext(StoriiParser.NodeContext,0)
+        def link(self):
+            return self.getTypedRuleContext(StoriiParser.LinkContext,0)
 
 
         def NL(self):
             return self.getToken(StoriiParser.NL, 0)
 
         def getRuleIndex(self):
-            return StoriiParser.RULE_page
+            return StoriiParser.RULE_stmt
 
         def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterPage" ):
-                listener.enterPage(self)
+            if hasattr( listener, "enterStmt" ):
+                listener.enterStmt(self)
 
         def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitPage" ):
-                listener.exitPage(self)
+            if hasattr( listener, "exitStmt" ):
+                listener.exitStmt(self)
 
 
 
 
-    def page(self):
+    def stmt(self):
 
-        localctx = StoriiParser.PageContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 14, self.RULE_page)
+        localctx = StoriiParser.StmtContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 14, self.RULE_stmt)
         try:
             self.enterOuterAlt(localctx, 1)
             self.state = 81
-            self.node()
+            self.link()
             self.state = 82
             self.match(StoriiParser.NL)
         except RecognitionException as re:
@@ -588,7 +588,7 @@ class StoriiParser ( Parser ):
         return localctx
 
 
-    class NodeContext(ParserRuleContext):
+    class LinkContext(ParserRuleContext):
         __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
@@ -603,8 +603,8 @@ class StoriiParser ( Parser ):
             return self.getTypedRuleContext(StoriiParser.LabelContext,0)
 
 
-        def link(self):
-            return self.getTypedRuleContext(StoriiParser.LinkContext,0)
+        def goto(self):
+            return self.getTypedRuleContext(StoriiParser.GotoContext,0)
 
 
         def title(self):
@@ -612,23 +612,23 @@ class StoriiParser ( Parser ):
 
 
         def getRuleIndex(self):
-            return StoriiParser.RULE_node
+            return StoriiParser.RULE_link
 
         def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterNode" ):
-                listener.enterNode(self)
+            if hasattr( listener, "enterLink" ):
+                listener.enterLink(self)
 
         def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitNode" ):
-                listener.exitNode(self)
+            if hasattr( listener, "exitLink" ):
+                listener.exitLink(self)
 
 
 
 
-    def node(self):
+    def link(self):
 
-        localctx = StoriiParser.NodeContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 16, self.RULE_node)
+        localctx = StoriiParser.LinkContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 16, self.RULE_link)
         try:
             self.state = 88
             self._errHandler.sync(self)
@@ -646,7 +646,7 @@ class StoriiParser ( Parser ):
             elif token in [10]:
                 self.enterOuterAlt(localctx, 3)
                 self.state = 86
-                self.link()
+                self.goto()
                 pass
             elif token in [16]:
                 self.enterOuterAlt(localctx, 4)
@@ -769,7 +769,7 @@ class StoriiParser ( Parser ):
         return localctx
 
 
-    class LinkContext(ParserRuleContext):
+    class GotoContext(ParserRuleContext):
         __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
@@ -787,23 +787,23 @@ class StoriiParser ( Parser ):
             return self.getToken(StoriiParser.ANGLE_R, 0)
 
         def getRuleIndex(self):
-            return StoriiParser.RULE_link
+            return StoriiParser.RULE_goto
 
         def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterLink" ):
-                listener.enterLink(self)
+            if hasattr( listener, "enterGoto" ):
+                listener.enterGoto(self)
 
         def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitLink" ):
-                listener.exitLink(self)
+            if hasattr( listener, "exitGoto" ):
+                listener.exitGoto(self)
 
 
 
 
-    def link(self):
+    def goto(self):
 
-        localctx = StoriiParser.LinkContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 22, self.RULE_link)
+        localctx = StoriiParser.GotoContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 22, self.RULE_goto)
         try:
             self.enterOuterAlt(localctx, 1)
             self.state = 98
