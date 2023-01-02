@@ -10,19 +10,49 @@ else:
 
 def serializedATN():
     return [
-        4,1,18,45,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,1,0,1,
-        0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,1,1,1,1,1,1,1,3,1,26,8,1,1,2,1,2,
-        1,2,1,2,1,3,1,3,1,3,1,3,1,4,1,4,1,4,1,4,1,5,4,5,41,8,5,11,5,12,5,
-        42,1,5,0,0,6,0,2,4,6,8,10,0,0,42,0,12,1,0,0,0,2,25,1,0,0,0,4,27,
-        1,0,0,0,6,31,1,0,0,0,8,35,1,0,0,0,10,40,1,0,0,0,12,13,3,2,1,0,13,
-        14,5,3,0,0,14,15,1,0,0,0,15,16,3,2,1,0,16,17,5,3,0,0,17,18,1,0,0,
-        0,18,19,3,2,1,0,19,20,5,3,0,0,20,1,1,0,0,0,21,26,3,4,2,0,22,26,3,
-        6,3,0,23,26,3,8,4,0,24,26,3,10,5,0,25,21,1,0,0,0,25,22,1,0,0,0,25,
-        23,1,0,0,0,25,24,1,0,0,0,26,3,1,0,0,0,27,28,5,8,0,0,28,29,3,10,5,
-        0,29,30,5,9,0,0,30,5,1,0,0,0,31,32,5,6,0,0,32,33,3,10,5,0,33,34,
-        5,7,0,0,34,7,1,0,0,0,35,36,5,10,0,0,36,37,3,10,5,0,37,38,5,11,0,
-        0,38,9,1,0,0,0,39,41,5,17,0,0,40,39,1,0,0,0,41,42,1,0,0,0,42,40,
-        1,0,0,0,42,43,1,0,0,0,43,11,1,0,0,0,2,25,42
+        4,1,17,134,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,13,7,13,
+        2,14,7,14,2,15,7,15,2,16,7,16,2,17,7,17,1,0,1,0,1,1,1,1,3,1,41,8,
+        1,1,2,1,2,1,2,1,2,1,3,5,3,48,8,3,10,3,12,3,51,9,3,1,3,1,3,1,3,1,
+        3,5,3,57,8,3,10,3,12,3,60,9,3,1,3,5,3,63,8,3,10,3,12,3,66,9,3,1,
+        4,1,4,1,4,1,5,1,5,4,5,73,8,5,11,5,12,5,74,1,6,4,6,78,8,6,11,6,12,
+        6,79,1,7,1,7,1,7,1,8,1,8,1,8,1,8,3,8,89,8,8,1,9,1,9,1,9,1,9,1,10,
+        1,10,1,10,1,10,1,11,1,11,1,11,1,11,1,12,1,12,1,13,4,13,106,8,13,
+        11,13,12,13,107,1,14,1,14,4,14,112,8,14,11,14,12,14,113,1,14,3,14,
+        117,8,14,1,15,1,15,3,15,121,8,15,1,15,1,15,1,16,1,16,3,16,127,8,
+        16,1,16,1,16,1,17,1,17,1,17,1,17,0,0,18,0,2,4,6,8,10,12,14,16,18,
+        20,22,24,26,28,30,32,34,0,0,131,0,36,1,0,0,0,2,40,1,0,0,0,4,42,1,
+        0,0,0,6,49,1,0,0,0,8,67,1,0,0,0,10,72,1,0,0,0,12,77,1,0,0,0,14,81,
+        1,0,0,0,16,88,1,0,0,0,18,90,1,0,0,0,20,94,1,0,0,0,22,98,1,0,0,0,
+        24,102,1,0,0,0,26,105,1,0,0,0,28,111,1,0,0,0,30,118,1,0,0,0,32,124,
+        1,0,0,0,34,130,1,0,0,0,36,37,3,6,3,0,37,1,1,0,0,0,38,41,5,3,0,0,
+        39,41,3,4,2,0,40,38,1,0,0,0,40,39,1,0,0,0,41,3,1,0,0,0,42,43,5,1,
+        0,0,43,44,3,6,3,0,44,45,5,2,0,0,45,5,1,0,0,0,46,48,3,8,4,0,47,46,
+        1,0,0,0,48,51,1,0,0,0,49,47,1,0,0,0,49,50,1,0,0,0,50,52,1,0,0,0,
+        51,49,1,0,0,0,52,58,3,10,5,0,53,54,3,8,4,0,54,55,3,10,5,0,55,57,
+        1,0,0,0,56,53,1,0,0,0,57,60,1,0,0,0,58,56,1,0,0,0,58,59,1,0,0,0,
+        59,64,1,0,0,0,60,58,1,0,0,0,61,63,3,8,4,0,62,61,1,0,0,0,63,66,1,
+        0,0,0,64,62,1,0,0,0,64,65,1,0,0,0,65,7,1,0,0,0,66,64,1,0,0,0,67,
+        68,5,15,0,0,68,69,5,3,0,0,69,9,1,0,0,0,70,73,3,12,6,0,71,73,3,28,
+        14,0,72,70,1,0,0,0,72,71,1,0,0,0,73,74,1,0,0,0,74,72,1,0,0,0,74,
+        75,1,0,0,0,75,11,1,0,0,0,76,78,3,14,7,0,77,76,1,0,0,0,78,79,1,0,
+        0,0,79,77,1,0,0,0,79,80,1,0,0,0,80,13,1,0,0,0,81,82,3,16,8,0,82,
+        83,5,3,0,0,83,15,1,0,0,0,84,89,3,18,9,0,85,89,3,20,10,0,86,89,3,
+        22,11,0,87,89,3,24,12,0,88,84,1,0,0,0,88,85,1,0,0,0,88,86,1,0,0,
+        0,88,87,1,0,0,0,89,17,1,0,0,0,90,91,5,8,0,0,91,92,3,26,13,0,92,93,
+        5,9,0,0,93,19,1,0,0,0,94,95,5,6,0,0,95,96,3,26,13,0,96,97,5,7,0,
+        0,97,21,1,0,0,0,98,99,5,10,0,0,99,100,3,26,13,0,100,101,5,11,0,0,
+        101,23,1,0,0,0,102,103,3,26,13,0,103,25,1,0,0,0,104,106,5,16,0,0,
+        105,104,1,0,0,0,106,107,1,0,0,0,107,105,1,0,0,0,107,108,1,0,0,0,
+        108,27,1,0,0,0,109,112,3,30,15,0,110,112,3,32,16,0,111,109,1,0,0,
+        0,111,110,1,0,0,0,112,113,1,0,0,0,113,111,1,0,0,0,113,114,1,0,0,
+        0,114,116,1,0,0,0,115,117,3,34,17,0,116,115,1,0,0,0,116,117,1,0,
+        0,0,117,29,1,0,0,0,118,120,5,13,0,0,119,121,5,16,0,0,120,119,1,0,
+        0,0,120,121,1,0,0,0,121,122,1,0,0,0,122,123,3,2,1,0,123,31,1,0,0,
+        0,124,126,5,12,0,0,125,127,5,16,0,0,126,125,1,0,0,0,126,127,1,0,
+        0,0,127,128,1,0,0,0,128,129,3,2,1,0,129,33,1,0,0,0,130,131,5,14,
+        0,0,131,132,3,2,1,0,132,35,1,0,0,0,14,40,49,58,64,72,74,79,88,107,
+        111,113,116,120,126
     ]
 
 class StoriiParser ( Parser ):
@@ -35,23 +65,37 @@ class StoriiParser ( Parser ):
 
     sharedContextCache = PredictionContextCache()
 
-    literalNames = [ "<INVALID>", "<INVALID>", "<INVALID>", "'\\n'", "'('", 
-                     "')'", "'['", "']'", "'{'", "'}'", "'<'", "'>'", "'->'", 
-                     "'--'", "'=='", "'START'", "'END'" ]
+    literalNames = [ "<INVALID>", "'INDENT\\n'", "'DEDENT\\n'", "<INVALID>", 
+                     "'('", "')'", "'['", "']'", "'{'", "'}'", "'<'", "'>'", 
+                     "'>>'", "'->'", "'--'", "'=='" ]
 
     symbolicNames = [ "<INVALID>", "INDENT", "DEDENT", "NL", "PAREN_L", 
                       "PAREN_R", "BRACKET_L", "BRACKET_R", "BRACE_L", "BRACE_R", 
-                      "ANGLE_L", "ANGLE_R", "ARROW", "STICK", "GATE", "START", 
-                      "END", "WORD", "WS" ]
+                      "ANGLE_L", "ANGLE_R", "SPIKE", "ARROW", "BAR", "GATE", 
+                      "WORD", "WS" ]
 
     RULE_program = 0
-    RULE_stmt = 1
-    RULE_node = 2
-    RULE_label = 3
-    RULE_link = 4
-    RULE_name = 5
+    RULE_proc = 1
+    RULE_block = 2
+    RULE_system = 3
+    RULE_gate = 4
+    RULE_room = 5
+    RULE_path = 6
+    RULE_page = 7
+    RULE_node = 8
+    RULE_header = 9
+    RULE_label = 10
+    RULE_link = 11
+    RULE_title = 12
+    RULE_name = 13
+    RULE_split = 14
+    RULE_fork = 15
+    RULE_spur = 16
+    RULE_main = 17
 
-    ruleNames =  [ "program", "stmt", "node", "label", "link", "name" ]
+    ruleNames =  [ "program", "proc", "block", "system", "gate", "room", 
+                   "path", "page", "node", "header", "label", "link", "title", 
+                   "name", "split", "fork", "spur", "main" ]
 
     EOF = Token.EOF
     INDENT=1
@@ -65,13 +109,12 @@ class StoriiParser ( Parser ):
     BRACE_R=9
     ANGLE_L=10
     ANGLE_R=11
-    ARROW=12
-    STICK=13
-    GATE=14
-    START=15
-    END=16
-    WORD=17
-    WS=18
+    SPIKE=12
+    ARROW=13
+    BAR=14
+    GATE=15
+    WORD=16
+    WS=17
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -89,18 +132,9 @@ class StoriiParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def stmt(self, i:int=None):
-            if i is None:
-                return self.getTypedRuleContexts(StoriiParser.StmtContext)
-            else:
-                return self.getTypedRuleContext(StoriiParser.StmtContext,i)
+        def system(self):
+            return self.getTypedRuleContext(StoriiParser.SystemContext,0)
 
-
-        def NL(self, i:int=None):
-            if i is None:
-                return self.getTokens(StoriiParser.NL)
-            else:
-                return self.getToken(StoriiParser.NL, i)
 
         def getRuleIndex(self):
             return StoriiParser.RULE_program
@@ -122,19 +156,249 @@ class StoriiParser ( Parser ):
         self.enterRule(localctx, 0, self.RULE_program)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 12
-            self.stmt()
-            self.state = 13
-            self.match(StoriiParser.NL)
+            self.state = 36
+            self.system()
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
 
-            self.state = 15
-            self.stmt()
-            self.state = 16
-            self.match(StoriiParser.NL)
 
-            self.state = 18
-            self.stmt()
-            self.state = 19
+    class ProcContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def NL(self):
+            return self.getToken(StoriiParser.NL, 0)
+
+        def block(self):
+            return self.getTypedRuleContext(StoriiParser.BlockContext,0)
+
+
+        def getRuleIndex(self):
+            return StoriiParser.RULE_proc
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterProc" ):
+                listener.enterProc(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitProc" ):
+                listener.exitProc(self)
+
+
+
+
+    def proc(self):
+
+        localctx = StoriiParser.ProcContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 2, self.RULE_proc)
+        try:
+            self.state = 40
+            self._errHandler.sync(self)
+            token = self._input.LA(1)
+            if token in [3]:
+                self.enterOuterAlt(localctx, 1)
+                self.state = 38
+                self.match(StoriiParser.NL)
+                pass
+            elif token in [1]:
+                self.enterOuterAlt(localctx, 2)
+                self.state = 39
+                self.block()
+                pass
+            else:
+                raise NoViableAltException(self)
+
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class BlockContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def INDENT(self):
+            return self.getToken(StoriiParser.INDENT, 0)
+
+        def system(self):
+            return self.getTypedRuleContext(StoriiParser.SystemContext,0)
+
+
+        def DEDENT(self):
+            return self.getToken(StoriiParser.DEDENT, 0)
+
+        def getRuleIndex(self):
+            return StoriiParser.RULE_block
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterBlock" ):
+                listener.enterBlock(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitBlock" ):
+                listener.exitBlock(self)
+
+
+
+
+    def block(self):
+
+        localctx = StoriiParser.BlockContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 4, self.RULE_block)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 42
+            self.match(StoriiParser.INDENT)
+            self.state = 43
+            self.system()
+            self.state = 44
+            self.match(StoriiParser.DEDENT)
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class SystemContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def room(self, i:int=None):
+            if i is None:
+                return self.getTypedRuleContexts(StoriiParser.RoomContext)
+            else:
+                return self.getTypedRuleContext(StoriiParser.RoomContext,i)
+
+
+        def gate(self, i:int=None):
+            if i is None:
+                return self.getTypedRuleContexts(StoriiParser.GateContext)
+            else:
+                return self.getTypedRuleContext(StoriiParser.GateContext,i)
+
+
+        def getRuleIndex(self):
+            return StoriiParser.RULE_system
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterSystem" ):
+                listener.enterSystem(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitSystem" ):
+                listener.exitSystem(self)
+
+
+
+
+    def system(self):
+
+        localctx = StoriiParser.SystemContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 6, self.RULE_system)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 49
+            self._errHandler.sync(self)
+            _la = self._input.LA(1)
+            while _la==15:
+                self.state = 46
+                self.gate()
+                self.state = 51
+                self._errHandler.sync(self)
+                _la = self._input.LA(1)
+
+            self.state = 52
+            self.room()
+            self.state = 58
+            self._errHandler.sync(self)
+            _alt = self._interp.adaptivePredict(self._input,2,self._ctx)
+            while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
+                if _alt==1:
+                    self.state = 53
+                    self.gate()
+                    self.state = 54
+                    self.room() 
+                self.state = 60
+                self._errHandler.sync(self)
+                _alt = self._interp.adaptivePredict(self._input,2,self._ctx)
+
+            self.state = 64
+            self._errHandler.sync(self)
+            _la = self._input.LA(1)
+            while _la==15:
+                self.state = 61
+                self.gate()
+                self.state = 66
+                self._errHandler.sync(self)
+                _la = self._input.LA(1)
+
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class GateContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def GATE(self):
+            return self.getToken(StoriiParser.GATE, 0)
+
+        def NL(self):
+            return self.getToken(StoriiParser.NL, 0)
+
+        def getRuleIndex(self):
+            return StoriiParser.RULE_gate
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterGate" ):
+                listener.enterGate(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitGate" ):
+                listener.exitGate(self)
+
+
+
+
+    def gate(self):
+
+        localctx = StoriiParser.GateContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 8, self.RULE_gate)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 67
+            self.match(StoriiParser.GATE)
+            self.state = 68
             self.match(StoriiParser.NL)
         except RecognitionException as re:
             localctx.exception = re
@@ -145,7 +409,139 @@ class StoriiParser ( Parser ):
         return localctx
 
 
-    class StmtContext(ParserRuleContext):
+    class RoomContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def path(self, i:int=None):
+            if i is None:
+                return self.getTypedRuleContexts(StoriiParser.PathContext)
+            else:
+                return self.getTypedRuleContext(StoriiParser.PathContext,i)
+
+
+        def split(self, i:int=None):
+            if i is None:
+                return self.getTypedRuleContexts(StoriiParser.SplitContext)
+            else:
+                return self.getTypedRuleContext(StoriiParser.SplitContext,i)
+
+
+        def getRuleIndex(self):
+            return StoriiParser.RULE_room
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterRoom" ):
+                listener.enterRoom(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitRoom" ):
+                listener.exitRoom(self)
+
+
+
+
+    def room(self):
+
+        localctx = StoriiParser.RoomContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 10, self.RULE_room)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 72 
+            self._errHandler.sync(self)
+            _la = self._input.LA(1)
+            while True:
+                self.state = 72
+                self._errHandler.sync(self)
+                token = self._input.LA(1)
+                if token in [6, 8, 10, 16]:
+                    self.state = 70
+                    self.path()
+                    pass
+                elif token in [12, 13]:
+                    self.state = 71
+                    self.split()
+                    pass
+                else:
+                    raise NoViableAltException(self)
+
+                self.state = 74 
+                self._errHandler.sync(self)
+                _la = self._input.LA(1)
+                if not (((_la) & ~0x3f) == 0 and ((1 << _la) & 79168) != 0):
+                    break
+
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class PathContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def page(self, i:int=None):
+            if i is None:
+                return self.getTypedRuleContexts(StoriiParser.PageContext)
+            else:
+                return self.getTypedRuleContext(StoriiParser.PageContext,i)
+
+
+        def getRuleIndex(self):
+            return StoriiParser.RULE_path
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterPath" ):
+                listener.enterPath(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitPath" ):
+                listener.exitPath(self)
+
+
+
+
+    def path(self):
+
+        localctx = StoriiParser.PathContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 12, self.RULE_path)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 77 
+            self._errHandler.sync(self)
+            _alt = 1
+            while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
+                if _alt == 1:
+                    self.state = 76
+                    self.page()
+
+                else:
+                    raise NoViableAltException(self)
+                self.state = 79 
+                self._errHandler.sync(self)
+                _alt = self._interp.adaptivePredict(self._input,6,self._ctx)
+
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class PageContext(ParserRuleContext):
         __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
@@ -156,63 +552,33 @@ class StoriiParser ( Parser ):
             return self.getTypedRuleContext(StoriiParser.NodeContext,0)
 
 
-        def label(self):
-            return self.getTypedRuleContext(StoriiParser.LabelContext,0)
-
-
-        def link(self):
-            return self.getTypedRuleContext(StoriiParser.LinkContext,0)
-
-
-        def name(self):
-            return self.getTypedRuleContext(StoriiParser.NameContext,0)
-
+        def NL(self):
+            return self.getToken(StoriiParser.NL, 0)
 
         def getRuleIndex(self):
-            return StoriiParser.RULE_stmt
+            return StoriiParser.RULE_page
 
         def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterStmt" ):
-                listener.enterStmt(self)
+            if hasattr( listener, "enterPage" ):
+                listener.enterPage(self)
 
         def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitStmt" ):
-                listener.exitStmt(self)
+            if hasattr( listener, "exitPage" ):
+                listener.exitPage(self)
 
 
 
 
-    def stmt(self):
+    def page(self):
 
-        localctx = StoriiParser.StmtContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 2, self.RULE_stmt)
+        localctx = StoriiParser.PageContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 14, self.RULE_page)
         try:
-            self.state = 25
-            self._errHandler.sync(self)
-            token = self._input.LA(1)
-            if token in [8]:
-                self.enterOuterAlt(localctx, 1)
-                self.state = 21
-                self.node()
-                pass
-            elif token in [6]:
-                self.enterOuterAlt(localctx, 2)
-                self.state = 22
-                self.label()
-                pass
-            elif token in [10]:
-                self.enterOuterAlt(localctx, 3)
-                self.state = 23
-                self.link()
-                pass
-            elif token in [17]:
-                self.enterOuterAlt(localctx, 4)
-                self.state = 24
-                self.name()
-                pass
-            else:
-                raise NoViableAltException(self)
-
+            self.enterOuterAlt(localctx, 1)
+            self.state = 81
+            self.node()
+            self.state = 82
+            self.match(StoriiParser.NL)
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -229,15 +595,21 @@ class StoriiParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def BRACE_L(self):
-            return self.getToken(StoriiParser.BRACE_L, 0)
-
-        def name(self):
-            return self.getTypedRuleContext(StoriiParser.NameContext,0)
+        def header(self):
+            return self.getTypedRuleContext(StoriiParser.HeaderContext,0)
 
 
-        def BRACE_R(self):
-            return self.getToken(StoriiParser.BRACE_R, 0)
+        def label(self):
+            return self.getTypedRuleContext(StoriiParser.LabelContext,0)
+
+
+        def link(self):
+            return self.getTypedRuleContext(StoriiParser.LinkContext,0)
+
+
+        def title(self):
+            return self.getTypedRuleContext(StoriiParser.TitleContext,0)
+
 
         def getRuleIndex(self):
             return StoriiParser.RULE_node
@@ -256,14 +628,85 @@ class StoriiParser ( Parser ):
     def node(self):
 
         localctx = StoriiParser.NodeContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 4, self.RULE_node)
+        self.enterRule(localctx, 16, self.RULE_node)
+        try:
+            self.state = 88
+            self._errHandler.sync(self)
+            token = self._input.LA(1)
+            if token in [8]:
+                self.enterOuterAlt(localctx, 1)
+                self.state = 84
+                self.header()
+                pass
+            elif token in [6]:
+                self.enterOuterAlt(localctx, 2)
+                self.state = 85
+                self.label()
+                pass
+            elif token in [10]:
+                self.enterOuterAlt(localctx, 3)
+                self.state = 86
+                self.link()
+                pass
+            elif token in [16]:
+                self.enterOuterAlt(localctx, 4)
+                self.state = 87
+                self.title()
+                pass
+            else:
+                raise NoViableAltException(self)
+
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class HeaderContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def BRACE_L(self):
+            return self.getToken(StoriiParser.BRACE_L, 0)
+
+        def name(self):
+            return self.getTypedRuleContext(StoriiParser.NameContext,0)
+
+
+        def BRACE_R(self):
+            return self.getToken(StoriiParser.BRACE_R, 0)
+
+        def getRuleIndex(self):
+            return StoriiParser.RULE_header
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterHeader" ):
+                listener.enterHeader(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitHeader" ):
+                listener.exitHeader(self)
+
+
+
+
+    def header(self):
+
+        localctx = StoriiParser.HeaderContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 18, self.RULE_header)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 27
+            self.state = 90
             self.match(StoriiParser.BRACE_L)
-            self.state = 28
+            self.state = 91
             self.name()
-            self.state = 29
+            self.state = 92
             self.match(StoriiParser.BRACE_R)
         except RecognitionException as re:
             localctx.exception = re
@@ -308,14 +751,14 @@ class StoriiParser ( Parser ):
     def label(self):
 
         localctx = StoriiParser.LabelContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 6, self.RULE_label)
+        self.enterRule(localctx, 20, self.RULE_label)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 31
+            self.state = 94
             self.match(StoriiParser.BRACKET_L)
-            self.state = 32
+            self.state = 95
             self.name()
-            self.state = 33
+            self.state = 96
             self.match(StoriiParser.BRACKET_R)
         except RecognitionException as re:
             localctx.exception = re
@@ -360,15 +803,57 @@ class StoriiParser ( Parser ):
     def link(self):
 
         localctx = StoriiParser.LinkContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 8, self.RULE_link)
+        self.enterRule(localctx, 22, self.RULE_link)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 35
+            self.state = 98
             self.match(StoriiParser.ANGLE_L)
-            self.state = 36
+            self.state = 99
             self.name()
-            self.state = 37
+            self.state = 100
             self.match(StoriiParser.ANGLE_R)
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class TitleContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def name(self):
+            return self.getTypedRuleContext(StoriiParser.NameContext,0)
+
+
+        def getRuleIndex(self):
+            return StoriiParser.RULE_title
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterTitle" ):
+                listener.enterTitle(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitTitle" ):
+                listener.exitTitle(self)
+
+
+
+
+    def title(self):
+
+        localctx = StoriiParser.TitleContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 24, self.RULE_title)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 102
+            self.name()
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -408,22 +893,276 @@ class StoriiParser ( Parser ):
     def name(self):
 
         localctx = StoriiParser.NameContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 10, self.RULE_name)
+        self.enterRule(localctx, 26, self.RULE_name)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 40 
+            self.state = 105 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 39
+                self.state = 104
                 self.match(StoriiParser.WORD)
-                self.state = 42 
+                self.state = 107 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not (_la==17):
+                if not (_la==16):
                     break
 
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class SplitContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def fork(self, i:int=None):
+            if i is None:
+                return self.getTypedRuleContexts(StoriiParser.ForkContext)
+            else:
+                return self.getTypedRuleContext(StoriiParser.ForkContext,i)
+
+
+        def spur(self, i:int=None):
+            if i is None:
+                return self.getTypedRuleContexts(StoriiParser.SpurContext)
+            else:
+                return self.getTypedRuleContext(StoriiParser.SpurContext,i)
+
+
+        def main(self):
+            return self.getTypedRuleContext(StoriiParser.MainContext,0)
+
+
+        def getRuleIndex(self):
+            return StoriiParser.RULE_split
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterSplit" ):
+                listener.enterSplit(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitSplit" ):
+                listener.exitSplit(self)
+
+
+
+
+    def split(self):
+
+        localctx = StoriiParser.SplitContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 28, self.RULE_split)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 111 
+            self._errHandler.sync(self)
+            _alt = 1
+            while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
+                if _alt == 1:
+                    self.state = 111
+                    self._errHandler.sync(self)
+                    token = self._input.LA(1)
+                    if token in [13]:
+                        self.state = 109
+                        self.fork()
+                        pass
+                    elif token in [12]:
+                        self.state = 110
+                        self.spur()
+                        pass
+                    else:
+                        raise NoViableAltException(self)
+
+
+                else:
+                    raise NoViableAltException(self)
+                self.state = 113 
+                self._errHandler.sync(self)
+                _alt = self._interp.adaptivePredict(self._input,10,self._ctx)
+
+            self.state = 116
+            self._errHandler.sync(self)
+            _la = self._input.LA(1)
+            if _la==14:
+                self.state = 115
+                self.main()
+
+
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class ForkContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def ARROW(self):
+            return self.getToken(StoriiParser.ARROW, 0)
+
+        def proc(self):
+            return self.getTypedRuleContext(StoriiParser.ProcContext,0)
+
+
+        def WORD(self):
+            return self.getToken(StoriiParser.WORD, 0)
+
+        def getRuleIndex(self):
+            return StoriiParser.RULE_fork
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterFork" ):
+                listener.enterFork(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitFork" ):
+                listener.exitFork(self)
+
+
+
+
+    def fork(self):
+
+        localctx = StoriiParser.ForkContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 30, self.RULE_fork)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 118
+            self.match(StoriiParser.ARROW)
+            self.state = 120
+            self._errHandler.sync(self)
+            _la = self._input.LA(1)
+            if _la==16:
+                self.state = 119
+                self.match(StoriiParser.WORD)
+
+
+            self.state = 122
+            self.proc()
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class SpurContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def SPIKE(self):
+            return self.getToken(StoriiParser.SPIKE, 0)
+
+        def proc(self):
+            return self.getTypedRuleContext(StoriiParser.ProcContext,0)
+
+
+        def WORD(self):
+            return self.getToken(StoriiParser.WORD, 0)
+
+        def getRuleIndex(self):
+            return StoriiParser.RULE_spur
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterSpur" ):
+                listener.enterSpur(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitSpur" ):
+                listener.exitSpur(self)
+
+
+
+
+    def spur(self):
+
+        localctx = StoriiParser.SpurContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 32, self.RULE_spur)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 124
+            self.match(StoriiParser.SPIKE)
+            self.state = 126
+            self._errHandler.sync(self)
+            _la = self._input.LA(1)
+            if _la==16:
+                self.state = 125
+                self.match(StoriiParser.WORD)
+
+
+            self.state = 128
+            self.proc()
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class MainContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def BAR(self):
+            return self.getToken(StoriiParser.BAR, 0)
+
+        def proc(self):
+            return self.getTypedRuleContext(StoriiParser.ProcContext,0)
+
+
+        def getRuleIndex(self):
+            return StoriiParser.RULE_main
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterMain" ):
+                listener.enterMain(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitMain" ):
+                listener.exitMain(self)
+
+
+
+
+    def main(self):
+
+        localctx = StoriiParser.MainContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 34, self.RULE_main)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 130
+            self.match(StoriiParser.BAR)
+            self.state = 131
+            self.proc()
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)

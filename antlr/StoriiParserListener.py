@@ -17,12 +17,66 @@ class StoriiParserListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by StoriiParser#stmt.
-    def enterStmt(self, ctx:StoriiParser.StmtContext):
+    # Enter a parse tree produced by StoriiParser#proc.
+    def enterProc(self, ctx:StoriiParser.ProcContext):
         pass
 
-    # Exit a parse tree produced by StoriiParser#stmt.
-    def exitStmt(self, ctx:StoriiParser.StmtContext):
+    # Exit a parse tree produced by StoriiParser#proc.
+    def exitProc(self, ctx:StoriiParser.ProcContext):
+        pass
+
+
+    # Enter a parse tree produced by StoriiParser#block.
+    def enterBlock(self, ctx:StoriiParser.BlockContext):
+        pass
+
+    # Exit a parse tree produced by StoriiParser#block.
+    def exitBlock(self, ctx:StoriiParser.BlockContext):
+        pass
+
+
+    # Enter a parse tree produced by StoriiParser#system.
+    def enterSystem(self, ctx:StoriiParser.SystemContext):
+        pass
+
+    # Exit a parse tree produced by StoriiParser#system.
+    def exitSystem(self, ctx:StoriiParser.SystemContext):
+        pass
+
+
+    # Enter a parse tree produced by StoriiParser#gate.
+    def enterGate(self, ctx:StoriiParser.GateContext):
+        pass
+
+    # Exit a parse tree produced by StoriiParser#gate.
+    def exitGate(self, ctx:StoriiParser.GateContext):
+        pass
+
+
+    # Enter a parse tree produced by StoriiParser#room.
+    def enterRoom(self, ctx:StoriiParser.RoomContext):
+        pass
+
+    # Exit a parse tree produced by StoriiParser#room.
+    def exitRoom(self, ctx:StoriiParser.RoomContext):
+        pass
+
+
+    # Enter a parse tree produced by StoriiParser#path.
+    def enterPath(self, ctx:StoriiParser.PathContext):
+        pass
+
+    # Exit a parse tree produced by StoriiParser#path.
+    def exitPath(self, ctx:StoriiParser.PathContext):
+        pass
+
+
+    # Enter a parse tree produced by StoriiParser#page.
+    def enterPage(self, ctx:StoriiParser.PageContext):
+        pass
+
+    # Exit a parse tree produced by StoriiParser#page.
+    def exitPage(self, ctx:StoriiParser.PageContext):
         pass
 
 
@@ -32,6 +86,15 @@ class StoriiParserListener(ParseTreeListener):
 
     # Exit a parse tree produced by StoriiParser#node.
     def exitNode(self, ctx:StoriiParser.NodeContext):
+        pass
+
+
+    # Enter a parse tree produced by StoriiParser#header.
+    def enterHeader(self, ctx:StoriiParser.HeaderContext):
+        pass
+
+    # Exit a parse tree produced by StoriiParser#header.
+    def exitHeader(self, ctx:StoriiParser.HeaderContext):
         pass
 
 
@@ -53,12 +116,57 @@ class StoriiParserListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by StoriiParser#title.
+    def enterTitle(self, ctx:StoriiParser.TitleContext):
+        pass
+
+    # Exit a parse tree produced by StoriiParser#title.
+    def exitTitle(self, ctx:StoriiParser.TitleContext):
+        pass
+
+
     # Enter a parse tree produced by StoriiParser#name.
     def enterName(self, ctx:StoriiParser.NameContext):
         pass
 
     # Exit a parse tree produced by StoriiParser#name.
     def exitName(self, ctx:StoriiParser.NameContext):
+        pass
+
+
+    # Enter a parse tree produced by StoriiParser#split.
+    def enterSplit(self, ctx:StoriiParser.SplitContext):
+        pass
+
+    # Exit a parse tree produced by StoriiParser#split.
+    def exitSplit(self, ctx:StoriiParser.SplitContext):
+        pass
+
+
+    # Enter a parse tree produced by StoriiParser#fork.
+    def enterFork(self, ctx:StoriiParser.ForkContext):
+        pass
+
+    # Exit a parse tree produced by StoriiParser#fork.
+    def exitFork(self, ctx:StoriiParser.ForkContext):
+        pass
+
+
+    # Enter a parse tree produced by StoriiParser#spur.
+    def enterSpur(self, ctx:StoriiParser.SpurContext):
+        pass
+
+    # Exit a parse tree produced by StoriiParser#spur.
+    def exitSpur(self, ctx:StoriiParser.SpurContext):
+        pass
+
+
+    # Enter a parse tree produced by StoriiParser#main.
+    def enterMain(self, ctx:StoriiParser.MainContext):
+        pass
+
+    # Exit a parse tree produced by StoriiParser#main.
+    def exitMain(self, ctx:StoriiParser.MainContext):
         pass
 
 
