@@ -139,14 +139,6 @@ class StoriiParser ( Parser ):
         def getRuleIndex(self):
             return StoriiParser.RULE_program
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterProgram" ):
-                listener.enterProgram(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitProgram" ):
-                listener.exitProgram(self)
-
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitProgram" ):
                 return visitor.visitProgram(self)
@@ -189,14 +181,6 @@ class StoriiParser ( Parser ):
 
         def getRuleIndex(self):
             return StoriiParser.RULE_proc
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterProc" ):
-                listener.enterProc(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitProc" ):
-                listener.exitProc(self)
 
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitProc" ):
@@ -257,14 +241,6 @@ class StoriiParser ( Parser ):
         def getRuleIndex(self):
             return StoriiParser.RULE_block
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterBlock" ):
-                listener.enterBlock(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitBlock" ):
-                listener.exitBlock(self)
-
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitBlock" ):
                 return visitor.visitBlock(self)
@@ -318,14 +294,6 @@ class StoriiParser ( Parser ):
 
         def getRuleIndex(self):
             return StoriiParser.RULE_system
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterSystem" ):
-                listener.enterSystem(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitSystem" ):
-                listener.exitSystem(self)
 
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitSystem" ):
@@ -403,14 +371,6 @@ class StoriiParser ( Parser ):
         def getRuleIndex(self):
             return StoriiParser.RULE_gate
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterGate" ):
-                listener.enterGate(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitGate" ):
-                listener.exitGate(self)
-
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitGate" ):
                 return visitor.visitGate(self)
@@ -462,14 +422,6 @@ class StoriiParser ( Parser ):
 
         def getRuleIndex(self):
             return StoriiParser.RULE_room
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterRoom" ):
-                listener.enterRoom(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitRoom" ):
-                listener.exitRoom(self)
 
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitRoom" ):
@@ -537,14 +489,6 @@ class StoriiParser ( Parser ):
         def getRuleIndex(self):
             return StoriiParser.RULE_path
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterPath" ):
-                listener.enterPath(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitPath" ):
-                listener.exitPath(self)
-
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitPath" ):
                 return visitor.visitPath(self)
@@ -600,14 +544,6 @@ class StoriiParser ( Parser ):
         def getRuleIndex(self):
             return StoriiParser.RULE_stmt
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterStmt" ):
-                listener.enterStmt(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitStmt" ):
-                listener.exitStmt(self)
-
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitStmt" ):
                 return visitor.visitStmt(self)
@@ -661,14 +597,6 @@ class StoriiParser ( Parser ):
 
         def getRuleIndex(self):
             return StoriiParser.RULE_link
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterLink" ):
-                listener.enterLink(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitLink" ):
-                listener.exitLink(self)
 
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitLink" ):
@@ -739,14 +667,6 @@ class StoriiParser ( Parser ):
         def getRuleIndex(self):
             return StoriiParser.RULE_header
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterHeader" ):
-                listener.enterHeader(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitHeader" ):
-                listener.exitHeader(self)
-
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitHeader" ):
                 return visitor.visitHeader(self)
@@ -796,14 +716,6 @@ class StoriiParser ( Parser ):
 
         def getRuleIndex(self):
             return StoriiParser.RULE_label
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterLabel" ):
-                listener.enterLabel(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitLabel" ):
-                listener.exitLabel(self)
 
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitLabel" ):
@@ -855,14 +767,6 @@ class StoriiParser ( Parser ):
         def getRuleIndex(self):
             return StoriiParser.RULE_goto
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterGoto" ):
-                listener.enterGoto(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitGoto" ):
-                listener.exitGoto(self)
-
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitGoto" ):
                 return visitor.visitGoto(self)
@@ -907,14 +811,6 @@ class StoriiParser ( Parser ):
         def getRuleIndex(self):
             return StoriiParser.RULE_title
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterTitle" ):
-                listener.enterTitle(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitTitle" ):
-                listener.exitTitle(self)
-
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitTitle" ):
                 return visitor.visitTitle(self)
@@ -956,14 +852,6 @@ class StoriiParser ( Parser ):
 
         def getRuleIndex(self):
             return StoriiParser.RULE_name
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterName" ):
-                listener.enterName(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitName" ):
-                listener.exitName(self)
 
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitName" ):
@@ -1029,14 +917,6 @@ class StoriiParser ( Parser ):
 
         def getRuleIndex(self):
             return StoriiParser.RULE_split
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterSplit" ):
-                listener.enterSplit(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitSplit" ):
-                listener.exitSplit(self)
 
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitSplit" ):
@@ -1117,14 +997,6 @@ class StoriiParser ( Parser ):
         def getRuleIndex(self):
             return StoriiParser.RULE_fork
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterFork" ):
-                listener.enterFork(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitFork" ):
-                listener.exitFork(self)
-
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitFork" ):
                 return visitor.visitFork(self)
@@ -1182,14 +1054,6 @@ class StoriiParser ( Parser ):
         def getRuleIndex(self):
             return StoriiParser.RULE_spur
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterSpur" ):
-                listener.enterSpur(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitSpur" ):
-                listener.exitSpur(self)
-
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitSpur" ):
                 return visitor.visitSpur(self)
@@ -1243,14 +1107,6 @@ class StoriiParser ( Parser ):
 
         def getRuleIndex(self):
             return StoriiParser.RULE_main
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterMain" ):
-                listener.enterMain(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitMain" ):
-                listener.exitMain(self)
 
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitMain" ):
