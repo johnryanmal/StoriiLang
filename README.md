@@ -6,8 +6,10 @@ A computer language for generating interactive fiction.
 [START]
 Intro
 {Foyer of the Opera House}
--> south INDENT <Bar> DEDENT
--> west INDENT <Cloakroom> DEDENT
+-> south
+	<Bar>
+-> west
+	<Cloakroom>
 -> north
 	<Unusable>
 	==
