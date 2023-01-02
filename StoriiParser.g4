@@ -14,12 +14,12 @@ gate: '==' NL;
 
 room: (path | split)+;
 
-path: page+;
-page: node NL;
-node: header | label | link | title;
+path: stmt+;
+stmt: link NL;
+link: header | label | goto | title;
 header: '{' name '}';
 label: '[' name ']';
-link: '<' name '>';
+goto: '<' name '>';
 title: name;
 name: WORD+;
 
