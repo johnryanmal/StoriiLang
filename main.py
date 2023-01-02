@@ -1,7 +1,7 @@
 import sys
 from antlr4 import *
-from antlr.StoriiLexer import StoriiLexer
-from antlr.StoriiParser import StoriiParser
+from StoriiLexer import StoriiLexer
+from StoriiParser import StoriiParser
 
 
 def main(argv):
@@ -9,7 +9,7 @@ def main(argv):
     lexer = StoriiLexer(input_stream)
     stream = CommonTokenStream(lexer)
     parser = StoriiParser(stream)
-    tree = parser.startRule()
+    tree = parser.program()
     print(tree)
 
 

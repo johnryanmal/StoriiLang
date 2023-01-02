@@ -1,0 +1,19 @@
+[Cloak of Darkness Updated]
+==
+[START]
+Intro
+{Foyer of the Opera House}
+-> south
+  <Bar>
+-> west
+  <Cloakroom>
+-> north
+  <Unusable>
+	==
+	[Unusable]
+	-> first
+    Unusable?
+	->
+    Unusable
+  --
+--
