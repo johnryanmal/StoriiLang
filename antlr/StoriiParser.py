@@ -147,6 +147,12 @@ class StoriiParser ( Parser ):
             if hasattr( listener, "exitProgram" ):
                 listener.exitProgram(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitProgram" ):
+                return visitor.visitProgram(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -191,6 +197,12 @@ class StoriiParser ( Parser ):
         def exitRule(self, listener:ParseTreeListener):
             if hasattr( listener, "exitProc" ):
                 listener.exitProc(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitProc" ):
+                return visitor.visitProc(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -253,6 +265,12 @@ class StoriiParser ( Parser ):
             if hasattr( listener, "exitBlock" ):
                 listener.exitBlock(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitBlock" ):
+                return visitor.visitBlock(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -308,6 +326,12 @@ class StoriiParser ( Parser ):
         def exitRule(self, listener:ParseTreeListener):
             if hasattr( listener, "exitSystem" ):
                 listener.exitSystem(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitSystem" ):
+                return visitor.visitSystem(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -387,6 +411,12 @@ class StoriiParser ( Parser ):
             if hasattr( listener, "exitGate" ):
                 listener.exitGate(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitGate" ):
+                return visitor.visitGate(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -440,6 +470,12 @@ class StoriiParser ( Parser ):
         def exitRule(self, listener:ParseTreeListener):
             if hasattr( listener, "exitRoom" ):
                 listener.exitRoom(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitRoom" ):
+                return visitor.visitRoom(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -509,6 +545,12 @@ class StoriiParser ( Parser ):
             if hasattr( listener, "exitPath" ):
                 listener.exitPath(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitPath" ):
+                return visitor.visitPath(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -566,6 +608,12 @@ class StoriiParser ( Parser ):
             if hasattr( listener, "exitStmt" ):
                 listener.exitStmt(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitStmt" ):
+                return visitor.visitStmt(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -621,6 +669,12 @@ class StoriiParser ( Parser ):
         def exitRule(self, listener:ParseTreeListener):
             if hasattr( listener, "exitLink" ):
                 listener.exitLink(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitLink" ):
+                return visitor.visitLink(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -693,6 +747,12 @@ class StoriiParser ( Parser ):
             if hasattr( listener, "exitHeader" ):
                 listener.exitHeader(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitHeader" ):
+                return visitor.visitHeader(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -744,6 +804,12 @@ class StoriiParser ( Parser ):
         def exitRule(self, listener:ParseTreeListener):
             if hasattr( listener, "exitLabel" ):
                 listener.exitLabel(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitLabel" ):
+                return visitor.visitLabel(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -797,6 +863,12 @@ class StoriiParser ( Parser ):
             if hasattr( listener, "exitGoto" ):
                 listener.exitGoto(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitGoto" ):
+                return visitor.visitGoto(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -843,6 +915,12 @@ class StoriiParser ( Parser ):
             if hasattr( listener, "exitTitle" ):
                 listener.exitTitle(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitTitle" ):
+                return visitor.visitTitle(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -886,6 +964,12 @@ class StoriiParser ( Parser ):
         def exitRule(self, listener:ParseTreeListener):
             if hasattr( listener, "exitName" ):
                 listener.exitName(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitName" ):
+                return visitor.visitName(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -953,6 +1037,12 @@ class StoriiParser ( Parser ):
         def exitRule(self, listener:ParseTreeListener):
             if hasattr( listener, "exitSplit" ):
                 listener.exitSplit(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitSplit" ):
+                return visitor.visitSplit(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -1035,6 +1125,12 @@ class StoriiParser ( Parser ):
             if hasattr( listener, "exitFork" ):
                 listener.exitFork(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitFork" ):
+                return visitor.visitFork(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -1094,6 +1190,12 @@ class StoriiParser ( Parser ):
             if hasattr( listener, "exitSpur" ):
                 listener.exitSpur(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitSpur" ):
+                return visitor.visitSpur(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -1149,6 +1251,12 @@ class StoriiParser ( Parser ):
         def exitRule(self, listener:ParseTreeListener):
             if hasattr( listener, "exitMain" ):
                 listener.exitMain(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitMain" ):
+                return visitor.visitMain(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
