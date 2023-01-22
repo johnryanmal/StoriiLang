@@ -8,7 +8,7 @@ from StoriiVisitor import StoriiVisitor
 def main(argv):
     input_stream = FileStream(argv[1])
     lexer = StoriiLexer(input_stream)
-    # print(list(token.type for token in lexer.getAllTokens()))
+    #print(list(lexer.symbolicNames[token.type] for token in lexer.getAllTokens()))
     stream = CommonTokenStream(lexer)
     parser = StoriiParser(stream)
     tree = parser.program()
