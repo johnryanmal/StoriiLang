@@ -10,49 +10,51 @@ else:
 
 def serializedATN():
     return [
-        4,1,17,134,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,17,141,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,13,7,13,
-        2,14,7,14,2,15,7,15,2,16,7,16,2,17,7,17,1,0,1,0,1,1,1,1,3,1,41,8,
-        1,1,2,1,2,1,2,1,2,1,3,5,3,48,8,3,10,3,12,3,51,9,3,1,3,1,3,1,3,1,
-        3,5,3,57,8,3,10,3,12,3,60,9,3,1,3,5,3,63,8,3,10,3,12,3,66,9,3,1,
-        4,1,4,1,4,1,5,1,5,4,5,73,8,5,11,5,12,5,74,1,6,4,6,78,8,6,11,6,12,
-        6,79,1,7,1,7,1,7,1,8,1,8,1,8,1,8,3,8,89,8,8,1,9,1,9,1,9,1,9,1,10,
-        1,10,1,10,1,10,1,11,1,11,1,11,1,11,1,12,1,12,1,13,4,13,106,8,13,
-        11,13,12,13,107,1,14,1,14,4,14,112,8,14,11,14,12,14,113,1,14,3,14,
-        117,8,14,1,15,1,15,3,15,121,8,15,1,15,1,15,1,16,1,16,3,16,127,8,
-        16,1,16,1,16,1,17,1,17,1,17,1,17,0,0,18,0,2,4,6,8,10,12,14,16,18,
-        20,22,24,26,28,30,32,34,0,0,131,0,36,1,0,0,0,2,40,1,0,0,0,4,42,1,
-        0,0,0,6,49,1,0,0,0,8,67,1,0,0,0,10,72,1,0,0,0,12,77,1,0,0,0,14,81,
-        1,0,0,0,16,88,1,0,0,0,18,90,1,0,0,0,20,94,1,0,0,0,22,98,1,0,0,0,
-        24,102,1,0,0,0,26,105,1,0,0,0,28,111,1,0,0,0,30,118,1,0,0,0,32,124,
-        1,0,0,0,34,130,1,0,0,0,36,37,3,6,3,0,37,1,1,0,0,0,38,41,5,3,0,0,
-        39,41,3,4,2,0,40,38,1,0,0,0,40,39,1,0,0,0,41,3,1,0,0,0,42,43,5,1,
-        0,0,43,44,3,6,3,0,44,45,5,2,0,0,45,5,1,0,0,0,46,48,3,8,4,0,47,46,
-        1,0,0,0,48,51,1,0,0,0,49,47,1,0,0,0,49,50,1,0,0,0,50,52,1,0,0,0,
-        51,49,1,0,0,0,52,58,3,10,5,0,53,54,3,8,4,0,54,55,3,10,5,0,55,57,
-        1,0,0,0,56,53,1,0,0,0,57,60,1,0,0,0,58,56,1,0,0,0,58,59,1,0,0,0,
-        59,64,1,0,0,0,60,58,1,0,0,0,61,63,3,8,4,0,62,61,1,0,0,0,63,66,1,
-        0,0,0,64,62,1,0,0,0,64,65,1,0,0,0,65,7,1,0,0,0,66,64,1,0,0,0,67,
-        68,5,15,0,0,68,69,5,3,0,0,69,9,1,0,0,0,70,73,3,12,6,0,71,73,3,28,
-        14,0,72,70,1,0,0,0,72,71,1,0,0,0,73,74,1,0,0,0,74,72,1,0,0,0,74,
-        75,1,0,0,0,75,11,1,0,0,0,76,78,3,14,7,0,77,76,1,0,0,0,78,79,1,0,
-        0,0,79,77,1,0,0,0,79,80,1,0,0,0,80,13,1,0,0,0,81,82,3,16,8,0,82,
-        83,5,3,0,0,83,15,1,0,0,0,84,89,3,18,9,0,85,89,3,20,10,0,86,89,3,
-        22,11,0,87,89,3,24,12,0,88,84,1,0,0,0,88,85,1,0,0,0,88,86,1,0,0,
-        0,88,87,1,0,0,0,89,17,1,0,0,0,90,91,5,8,0,0,91,92,3,26,13,0,92,93,
-        5,9,0,0,93,19,1,0,0,0,94,95,5,6,0,0,95,96,3,26,13,0,96,97,5,7,0,
-        0,97,21,1,0,0,0,98,99,5,10,0,0,99,100,3,26,13,0,100,101,5,11,0,0,
-        101,23,1,0,0,0,102,103,3,26,13,0,103,25,1,0,0,0,104,106,5,16,0,0,
-        105,104,1,0,0,0,106,107,1,0,0,0,107,105,1,0,0,0,107,108,1,0,0,0,
-        108,27,1,0,0,0,109,112,3,30,15,0,110,112,3,32,16,0,111,109,1,0,0,
-        0,111,110,1,0,0,0,112,113,1,0,0,0,113,111,1,0,0,0,113,114,1,0,0,
-        0,114,116,1,0,0,0,115,117,3,34,17,0,116,115,1,0,0,0,116,117,1,0,
-        0,0,117,29,1,0,0,0,118,120,5,13,0,0,119,121,5,16,0,0,120,119,1,0,
-        0,0,120,121,1,0,0,0,121,122,1,0,0,0,122,123,3,2,1,0,123,31,1,0,0,
-        0,124,126,5,12,0,0,125,127,5,16,0,0,126,125,1,0,0,0,126,127,1,0,
-        0,0,127,128,1,0,0,0,128,129,3,2,1,0,129,33,1,0,0,0,130,131,5,14,
-        0,0,131,132,3,2,1,0,132,35,1,0,0,0,14,40,49,58,64,72,74,79,88,107,
-        111,113,116,120,126
+        2,14,7,14,2,15,7,15,2,16,7,16,2,17,7,17,2,18,7,18,1,0,1,0,1,1,1,
+        1,3,1,43,8,1,1,2,1,2,1,2,1,2,1,3,5,3,50,8,3,10,3,12,3,53,9,3,1,3,
+        1,3,1,3,1,3,5,3,59,8,3,10,3,12,3,62,9,3,1,3,5,3,65,8,3,10,3,12,3,
+        68,9,3,1,4,1,4,1,4,1,5,1,5,4,5,75,8,5,11,5,12,5,76,1,6,4,6,80,8,
+        6,11,6,12,6,81,1,7,1,7,1,7,1,8,1,8,1,8,1,8,1,8,3,8,92,8,8,1,9,1,
+        9,1,9,1,9,1,10,1,10,1,10,1,10,1,11,1,11,1,11,1,11,1,12,1,12,1,12,
+        1,12,1,13,1,13,1,14,4,14,113,8,14,11,14,12,14,114,1,15,1,15,4,15,
+        119,8,15,11,15,12,15,120,1,15,3,15,124,8,15,1,16,1,16,3,16,128,8,
+        16,1,16,1,16,1,17,1,17,3,17,134,8,17,1,17,1,17,1,18,1,18,1,18,1,
+        18,0,0,19,0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,0,
+        0,138,0,38,1,0,0,0,2,42,1,0,0,0,4,44,1,0,0,0,6,51,1,0,0,0,8,69,1,
+        0,0,0,10,74,1,0,0,0,12,79,1,0,0,0,14,83,1,0,0,0,16,91,1,0,0,0,18,
+        93,1,0,0,0,20,97,1,0,0,0,22,101,1,0,0,0,24,105,1,0,0,0,26,109,1,
+        0,0,0,28,112,1,0,0,0,30,118,1,0,0,0,32,125,1,0,0,0,34,131,1,0,0,
+        0,36,137,1,0,0,0,38,39,3,6,3,0,39,1,1,0,0,0,40,43,5,3,0,0,41,43,
+        3,4,2,0,42,40,1,0,0,0,42,41,1,0,0,0,43,3,1,0,0,0,44,45,5,1,0,0,45,
+        46,3,6,3,0,46,47,5,2,0,0,47,5,1,0,0,0,48,50,3,8,4,0,49,48,1,0,0,
+        0,50,53,1,0,0,0,51,49,1,0,0,0,51,52,1,0,0,0,52,54,1,0,0,0,53,51,
+        1,0,0,0,54,60,3,10,5,0,55,56,3,8,4,0,56,57,3,10,5,0,57,59,1,0,0,
+        0,58,55,1,0,0,0,59,62,1,0,0,0,60,58,1,0,0,0,60,61,1,0,0,0,61,66,
+        1,0,0,0,62,60,1,0,0,0,63,65,3,8,4,0,64,63,1,0,0,0,65,68,1,0,0,0,
+        66,64,1,0,0,0,66,67,1,0,0,0,67,7,1,0,0,0,68,66,1,0,0,0,69,70,5,15,
+        0,0,70,71,5,3,0,0,71,9,1,0,0,0,72,75,3,12,6,0,73,75,3,30,15,0,74,
+        72,1,0,0,0,74,73,1,0,0,0,75,76,1,0,0,0,76,74,1,0,0,0,76,77,1,0,0,
+        0,77,11,1,0,0,0,78,80,3,14,7,0,79,78,1,0,0,0,80,81,1,0,0,0,81,79,
+        1,0,0,0,81,82,1,0,0,0,82,13,1,0,0,0,83,84,3,16,8,0,84,85,5,3,0,0,
+        85,15,1,0,0,0,86,92,3,18,9,0,87,92,3,20,10,0,88,92,3,22,11,0,89,
+        92,3,24,12,0,90,92,3,26,13,0,91,86,1,0,0,0,91,87,1,0,0,0,91,88,1,
+        0,0,0,91,89,1,0,0,0,91,90,1,0,0,0,92,17,1,0,0,0,93,94,5,8,0,0,94,
+        95,3,28,14,0,95,96,5,9,0,0,96,19,1,0,0,0,97,98,5,6,0,0,98,99,3,28,
+        14,0,99,100,5,7,0,0,100,21,1,0,0,0,101,102,5,4,0,0,102,103,3,28,
+        14,0,103,104,5,5,0,0,104,23,1,0,0,0,105,106,5,10,0,0,106,107,3,28,
+        14,0,107,108,5,11,0,0,108,25,1,0,0,0,109,110,3,28,14,0,110,27,1,
+        0,0,0,111,113,5,16,0,0,112,111,1,0,0,0,113,114,1,0,0,0,114,112,1,
+        0,0,0,114,115,1,0,0,0,115,29,1,0,0,0,116,119,3,32,16,0,117,119,3,
+        34,17,0,118,116,1,0,0,0,118,117,1,0,0,0,119,120,1,0,0,0,120,118,
+        1,0,0,0,120,121,1,0,0,0,121,123,1,0,0,0,122,124,3,36,18,0,123,122,
+        1,0,0,0,123,124,1,0,0,0,124,31,1,0,0,0,125,127,5,13,0,0,126,128,
+        5,16,0,0,127,126,1,0,0,0,127,128,1,0,0,0,128,129,1,0,0,0,129,130,
+        3,2,1,0,130,33,1,0,0,0,131,133,5,12,0,0,132,134,5,16,0,0,133,132,
+        1,0,0,0,133,134,1,0,0,0,134,135,1,0,0,0,135,136,3,2,1,0,136,35,1,
+        0,0,0,137,138,5,14,0,0,138,139,3,2,1,0,139,37,1,0,0,0,14,42,51,60,
+        66,74,76,81,91,114,118,120,123,127,133
     ]
 
 class StoriiParser ( Parser ):
@@ -85,17 +87,18 @@ class StoriiParser ( Parser ):
     RULE_link = 8
     RULE_header = 9
     RULE_label = 10
-    RULE_goto = 11
-    RULE_title = 12
-    RULE_name = 13
-    RULE_split = 14
-    RULE_fork = 15
-    RULE_spur = 16
-    RULE_main = 17
+    RULE_sub = 11
+    RULE_goto = 12
+    RULE_title = 13
+    RULE_name = 14
+    RULE_split = 15
+    RULE_fork = 16
+    RULE_spur = 17
+    RULE_main = 18
 
     ruleNames =  [ "program", "proc", "block", "system", "gate", "room", 
-                   "path", "stmt", "link", "header", "label", "goto", "title", 
-                   "name", "split", "fork", "spur", "main" ]
+                   "path", "stmt", "link", "header", "label", "sub", "goto", 
+                   "title", "name", "split", "fork", "spur", "main" ]
 
     EOF = Token.EOF
     INDENT=1
@@ -154,7 +157,7 @@ class StoriiParser ( Parser ):
         self.enterRule(localctx, 0, self.RULE_program)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 36
+            self.state = 38
             self.system()
         except RecognitionException as re:
             localctx.exception = re
@@ -196,17 +199,17 @@ class StoriiParser ( Parser ):
         localctx = StoriiParser.ProcContext(self, self._ctx, self.state)
         self.enterRule(localctx, 2, self.RULE_proc)
         try:
-            self.state = 40
+            self.state = 42
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [3]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 38
+                self.state = 40
                 self.match(StoriiParser.NL)
                 pass
             elif token in [1]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 39
+                self.state = 41
                 self.block()
                 pass
             else:
@@ -256,11 +259,11 @@ class StoriiParser ( Parser ):
         self.enterRule(localctx, 4, self.RULE_block)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 42
-            self.match(StoriiParser.INDENT)
-            self.state = 43
-            self.system()
             self.state = 44
+            self.match(StoriiParser.INDENT)
+            self.state = 45
+            self.system()
+            self.state = 46
             self.match(StoriiParser.DEDENT)
         except RecognitionException as re:
             localctx.exception = re
@@ -311,38 +314,38 @@ class StoriiParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 49
+            self.state = 51
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==15:
-                self.state = 46
+                self.state = 48
                 self.gate()
-                self.state = 51
+                self.state = 53
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 52
+            self.state = 54
             self.room()
-            self.state = 58
+            self.state = 60
             self._errHandler.sync(self)
             _alt = self._interp.adaptivePredict(self._input,2,self._ctx)
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt==1:
-                    self.state = 53
+                    self.state = 55
                     self.gate()
-                    self.state = 54
+                    self.state = 56
                     self.room() 
-                self.state = 60
+                self.state = 62
                 self._errHandler.sync(self)
                 _alt = self._interp.adaptivePredict(self._input,2,self._ctx)
 
-            self.state = 64
+            self.state = 66
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==15:
-                self.state = 61
+                self.state = 63
                 self.gate()
-                self.state = 66
+                self.state = 68
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -386,9 +389,9 @@ class StoriiParser ( Parser ):
         self.enterRule(localctx, 8, self.RULE_gate)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 67
+            self.state = 69
             self.match(StoriiParser.GATE)
-            self.state = 68
+            self.state = 70
             self.match(StoriiParser.NL)
         except RecognitionException as re:
             localctx.exception = re
@@ -439,28 +442,28 @@ class StoriiParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 72 
+            self.state = 74 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 72
+                self.state = 74
                 self._errHandler.sync(self)
                 token = self._input.LA(1)
-                if token in [6, 8, 10, 16]:
-                    self.state = 70
+                if token in [4, 6, 8, 10, 16]:
+                    self.state = 72
                     self.path()
                     pass
                 elif token in [12, 13]:
-                    self.state = 71
+                    self.state = 73
                     self.split()
                     pass
                 else:
                     raise NoViableAltException(self)
 
-                self.state = 74 
+                self.state = 76 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not (((_la) & ~0x3f) == 0 and ((1 << _la) & 79168) != 0):
+                if not (((_la) & ~0x3f) == 0 and ((1 << _la) & 79184) != 0):
                     break
 
         except RecognitionException as re:
@@ -504,17 +507,17 @@ class StoriiParser ( Parser ):
         self.enterRule(localctx, 12, self.RULE_path)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 77 
+            self.state = 79 
             self._errHandler.sync(self)
             _alt = 1
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt == 1:
-                    self.state = 76
+                    self.state = 78
                     self.stmt()
 
                 else:
                     raise NoViableAltException(self)
-                self.state = 79 
+                self.state = 81 
                 self._errHandler.sync(self)
                 _alt = self._interp.adaptivePredict(self._input,6,self._ctx)
 
@@ -559,9 +562,9 @@ class StoriiParser ( Parser ):
         self.enterRule(localctx, 14, self.RULE_stmt)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 81
+            self.state = 83
             self.link()
-            self.state = 82
+            self.state = 84
             self.match(StoriiParser.NL)
         except RecognitionException as re:
             localctx.exception = re
@@ -585,6 +588,10 @@ class StoriiParser ( Parser ):
 
         def label(self):
             return self.getTypedRuleContext(StoriiParser.LabelContext,0)
+
+
+        def sub(self):
+            return self.getTypedRuleContext(StoriiParser.SubContext,0)
 
 
         def goto(self):
@@ -612,27 +619,32 @@ class StoriiParser ( Parser ):
         localctx = StoriiParser.LinkContext(self, self._ctx, self.state)
         self.enterRule(localctx, 16, self.RULE_link)
         try:
-            self.state = 88
+            self.state = 91
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [8]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 84
+                self.state = 86
                 self.header()
                 pass
             elif token in [6]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 85
+                self.state = 87
                 self.label()
                 pass
-            elif token in [10]:
+            elif token in [4]:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 86
+                self.state = 88
+                self.sub()
+                pass
+            elif token in [10]:
+                self.enterOuterAlt(localctx, 4)
+                self.state = 89
                 self.goto()
                 pass
             elif token in [16]:
-                self.enterOuterAlt(localctx, 4)
-                self.state = 87
+                self.enterOuterAlt(localctx, 5)
+                self.state = 90
                 self.title()
                 pass
             else:
@@ -682,11 +694,11 @@ class StoriiParser ( Parser ):
         self.enterRule(localctx, 18, self.RULE_header)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 90
+            self.state = 93
             self.match(StoriiParser.BRACE_L)
-            self.state = 91
+            self.state = 94
             self.name()
-            self.state = 92
+            self.state = 95
             self.match(StoriiParser.BRACE_R)
         except RecognitionException as re:
             localctx.exception = re
@@ -732,12 +744,62 @@ class StoriiParser ( Parser ):
         self.enterRule(localctx, 20, self.RULE_label)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 94
+            self.state = 97
             self.match(StoriiParser.BRACKET_L)
-            self.state = 95
+            self.state = 98
             self.name()
-            self.state = 96
+            self.state = 99
             self.match(StoriiParser.BRACKET_R)
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class SubContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def PAREN_L(self):
+            return self.getToken(StoriiParser.PAREN_L, 0)
+
+        def name(self):
+            return self.getTypedRuleContext(StoriiParser.NameContext,0)
+
+
+        def PAREN_R(self):
+            return self.getToken(StoriiParser.PAREN_R, 0)
+
+        def getRuleIndex(self):
+            return StoriiParser.RULE_sub
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitSub" ):
+                return visitor.visitSub(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def sub(self):
+
+        localctx = StoriiParser.SubContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 22, self.RULE_sub)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 101
+            self.match(StoriiParser.PAREN_L)
+            self.state = 102
+            self.name()
+            self.state = 103
+            self.match(StoriiParser.PAREN_R)
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -779,14 +841,14 @@ class StoriiParser ( Parser ):
     def goto(self):
 
         localctx = StoriiParser.GotoContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 22, self.RULE_goto)
+        self.enterRule(localctx, 24, self.RULE_goto)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 98
+            self.state = 105
             self.match(StoriiParser.ANGLE_L)
-            self.state = 99
+            self.state = 106
             self.name()
-            self.state = 100
+            self.state = 107
             self.match(StoriiParser.ANGLE_R)
         except RecognitionException as re:
             localctx.exception = re
@@ -823,10 +885,10 @@ class StoriiParser ( Parser ):
     def title(self):
 
         localctx = StoriiParser.TitleContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 24, self.RULE_title)
+        self.enterRule(localctx, 26, self.RULE_title)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 102
+            self.state = 109
             self.name()
         except RecognitionException as re:
             localctx.exception = re
@@ -865,17 +927,17 @@ class StoriiParser ( Parser ):
     def name(self):
 
         localctx = StoriiParser.NameContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 26, self.RULE_name)
+        self.enterRule(localctx, 28, self.RULE_name)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 105 
+            self.state = 112 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 104
+                self.state = 111
                 self.match(StoriiParser.WORD)
-                self.state = 107 
+                self.state = 114 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 if not (_la==16):
@@ -930,24 +992,24 @@ class StoriiParser ( Parser ):
     def split(self):
 
         localctx = StoriiParser.SplitContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 28, self.RULE_split)
+        self.enterRule(localctx, 30, self.RULE_split)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 111 
+            self.state = 118 
             self._errHandler.sync(self)
             _alt = 1
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt == 1:
-                    self.state = 111
+                    self.state = 118
                     self._errHandler.sync(self)
                     token = self._input.LA(1)
                     if token in [13]:
-                        self.state = 109
+                        self.state = 116
                         self.fork()
                         pass
                     elif token in [12]:
-                        self.state = 110
+                        self.state = 117
                         self.spur()
                         pass
                     else:
@@ -956,15 +1018,15 @@ class StoriiParser ( Parser ):
 
                 else:
                     raise NoViableAltException(self)
-                self.state = 113 
+                self.state = 120 
                 self._errHandler.sync(self)
                 _alt = self._interp.adaptivePredict(self._input,10,self._ctx)
 
-            self.state = 116
+            self.state = 123
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==14:
-                self.state = 115
+                self.state = 122
                 self.main()
 
 
@@ -1009,21 +1071,21 @@ class StoriiParser ( Parser ):
     def fork(self):
 
         localctx = StoriiParser.ForkContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 30, self.RULE_fork)
+        self.enterRule(localctx, 32, self.RULE_fork)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 118
+            self.state = 125
             self.match(StoriiParser.ARROW)
-            self.state = 120
+            self.state = 127
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==16:
-                self.state = 119
+                self.state = 126
                 self.match(StoriiParser.WORD)
 
 
-            self.state = 122
+            self.state = 129
             self.proc()
         except RecognitionException as re:
             localctx.exception = re
@@ -1066,21 +1128,21 @@ class StoriiParser ( Parser ):
     def spur(self):
 
         localctx = StoriiParser.SpurContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 32, self.RULE_spur)
+        self.enterRule(localctx, 34, self.RULE_spur)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 124
+            self.state = 131
             self.match(StoriiParser.SPIKE)
-            self.state = 126
+            self.state = 133
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==16:
-                self.state = 125
+                self.state = 132
                 self.match(StoriiParser.WORD)
 
 
-            self.state = 128
+            self.state = 135
             self.proc()
         except RecognitionException as re:
             localctx.exception = re
@@ -1120,12 +1182,12 @@ class StoriiParser ( Parser ):
     def main(self):
 
         localctx = StoriiParser.MainContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 34, self.RULE_main)
+        self.enterRule(localctx, 36, self.RULE_main)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 130
+            self.state = 137
             self.match(StoriiParser.BAR)
-            self.state = 131
+            self.state = 138
             self.proc()
         except RecognitionException as re:
             localctx.exception = re

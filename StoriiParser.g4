@@ -16,9 +16,10 @@ room: (path | split)+;
 
 path: stmt+;
 stmt: link NL;
-link: header | label | goto | title;
+link: header | label | sub | goto | title;
 header: '{' name '}';
 label: '[' name ']';
+sub: '(' name ')';
 goto: '<' name '>';
 title: name;
 name: WORD+;

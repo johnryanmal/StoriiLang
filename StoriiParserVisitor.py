@@ -64,6 +64,11 @@ class StoriiParserVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
+    # Visit a parse tree produced by StoriiParser#sub.
+    def visitSub(self, ctx:StoriiParser.SubContext):
+        return self.visitChildren(ctx)
+
+
     # Visit a parse tree produced by StoriiParser#goto.
     def visitGoto(self, ctx:StoriiParser.GotoContext):
         return self.visitChildren(ctx)
