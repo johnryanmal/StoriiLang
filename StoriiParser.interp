@@ -53,7 +53,7 @@ label
 sub
 goto
 title
-name
+words
 split
 fork
 spur

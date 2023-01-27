@@ -90,7 +90,7 @@ class StoriiParser ( Parser ):
     RULE_sub = 11
     RULE_goto = 12
     RULE_title = 13
-    RULE_name = 14
+    RULE_words = 14
     RULE_split = 15
     RULE_fork = 16
     RULE_spur = 17
@@ -98,7 +98,7 @@ class StoriiParser ( Parser ):
 
     ruleNames =  [ "program", "proc", "block", "system", "gate", "room", 
                    "path", "stmt", "link", "header", "label", "sub", "goto", 
-                   "title", "name", "split", "fork", "spur", "main" ]
+                   "title", "words", "split", "fork", "spur", "main" ]
 
     EOF = Token.EOF
     INDENT=1
@@ -669,8 +669,8 @@ class StoriiParser ( Parser ):
         def BRACE_L(self):
             return self.getToken(StoriiParser.BRACE_L, 0)
 
-        def name(self):
-            return self.getTypedRuleContext(StoriiParser.NameContext,0)
+        def words(self):
+            return self.getTypedRuleContext(StoriiParser.WordsContext,0)
 
 
         def BRACE_R(self):
@@ -697,7 +697,7 @@ class StoriiParser ( Parser ):
             self.state = 93
             self.match(StoriiParser.BRACE_L)
             self.state = 94
-            self.name()
+            self.words()
             self.state = 95
             self.match(StoriiParser.BRACE_R)
         except RecognitionException as re:
@@ -719,8 +719,8 @@ class StoriiParser ( Parser ):
         def BRACKET_L(self):
             return self.getToken(StoriiParser.BRACKET_L, 0)
 
-        def name(self):
-            return self.getTypedRuleContext(StoriiParser.NameContext,0)
+        def words(self):
+            return self.getTypedRuleContext(StoriiParser.WordsContext,0)
 
 
         def BRACKET_R(self):
@@ -747,7 +747,7 @@ class StoriiParser ( Parser ):
             self.state = 97
             self.match(StoriiParser.BRACKET_L)
             self.state = 98
-            self.name()
+            self.words()
             self.state = 99
             self.match(StoriiParser.BRACKET_R)
         except RecognitionException as re:
@@ -769,8 +769,8 @@ class StoriiParser ( Parser ):
         def PAREN_L(self):
             return self.getToken(StoriiParser.PAREN_L, 0)
 
-        def name(self):
-            return self.getTypedRuleContext(StoriiParser.NameContext,0)
+        def words(self):
+            return self.getTypedRuleContext(StoriiParser.WordsContext,0)
 
 
         def PAREN_R(self):
@@ -797,7 +797,7 @@ class StoriiParser ( Parser ):
             self.state = 101
             self.match(StoriiParser.PAREN_L)
             self.state = 102
-            self.name()
+            self.words()
             self.state = 103
             self.match(StoriiParser.PAREN_R)
         except RecognitionException as re:
@@ -819,8 +819,8 @@ class StoriiParser ( Parser ):
         def ANGLE_L(self):
             return self.getToken(StoriiParser.ANGLE_L, 0)
 
-        def name(self):
-            return self.getTypedRuleContext(StoriiParser.NameContext,0)
+        def words(self):
+            return self.getTypedRuleContext(StoriiParser.WordsContext,0)
 
 
         def ANGLE_R(self):
@@ -847,7 +847,7 @@ class StoriiParser ( Parser ):
             self.state = 105
             self.match(StoriiParser.ANGLE_L)
             self.state = 106
-            self.name()
+            self.words()
             self.state = 107
             self.match(StoriiParser.ANGLE_R)
         except RecognitionException as re:
@@ -866,8 +866,8 @@ class StoriiParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def name(self):
-            return self.getTypedRuleContext(StoriiParser.NameContext,0)
+        def words(self):
+            return self.getTypedRuleContext(StoriiParser.WordsContext,0)
 
 
         def getRuleIndex(self):
@@ -889,7 +889,7 @@ class StoriiParser ( Parser ):
         try:
             self.enterOuterAlt(localctx, 1)
             self.state = 109
-            self.name()
+            self.words()
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -899,7 +899,7 @@ class StoriiParser ( Parser ):
         return localctx
 
 
-    class NameContext(ParserRuleContext):
+    class WordsContext(ParserRuleContext):
         __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
@@ -913,21 +913,21 @@ class StoriiParser ( Parser ):
                 return self.getToken(StoriiParser.WORD, i)
 
         def getRuleIndex(self):
-            return StoriiParser.RULE_name
+            return StoriiParser.RULE_words
 
         def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitName" ):
-                return visitor.visitName(self)
+            if hasattr( visitor, "visitWords" ):
+                return visitor.visitWords(self)
             else:
                 return visitor.visitChildren(self)
 
 
 
 
-    def name(self):
+    def words(self):
 
-        localctx = StoriiParser.NameContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 28, self.RULE_name)
+        localctx = StoriiParser.WordsContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 28, self.RULE_words)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)

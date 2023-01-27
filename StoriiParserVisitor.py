@@ -79,8 +79,8 @@ class StoriiParserVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
-    # Visit a parse tree produced by StoriiParser#name.
-    def visitName(self, ctx:StoriiParser.NameContext):
+    # Visit a parse tree produced by StoriiParser#words.
+    def visitWords(self, ctx:StoriiParser.WordsContext):
         return self.visitChildren(ctx)
 
 

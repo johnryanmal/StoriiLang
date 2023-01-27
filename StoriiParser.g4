@@ -17,12 +17,12 @@ room: (path | split)+;
 path: stmt+;
 stmt: link NL;
 link: header | label | sub | goto | title;
-header: '{' name '}';
-label: '[' name ']';
-sub: '(' name ')';
-goto: '<' name '>';
-title: name;
-name: WORD+;
+header: '{' words '}';
+label: '[' words ']';
+sub: '(' words ')';
+goto: '<' words'>';
+title: words;
+words: WORD+;
 
 split: (fork | spur)+ main?;
 fork: '->' WORD? proc;
