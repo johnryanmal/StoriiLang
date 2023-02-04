@@ -9,11 +9,11 @@ Intro
   <Cloakroom>
 -> north
   <Unusable>
-	==
-	[Unusable]
-	-> first
+  ==
+  [Unusable]
+  -> first
     Unusable?
-	->
+  ->
     Unusable
   --
 --
