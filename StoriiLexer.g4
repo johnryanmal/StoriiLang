@@ -27,9 +27,8 @@ denter = None
 
 def nextToken(self):
     if not self.denter:
-        self.denter = self.StoriiDenter(self, self.NL, StoriiParser.INDENT, StoriiParser.DEDENT, True)
+        self.denter = self.StoriiDenter(self, self.NL, StoriiParser.INDENT, StoriiParser.DEDENT, False)
     return self.denter.next_token()
-
 }
 
 NL: ('\r'? '\n' [ \t]* | 'NL')+;
