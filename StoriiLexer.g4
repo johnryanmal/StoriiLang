@@ -32,7 +32,7 @@ def nextToken(self):
 
 }
 
-NL: ('\n' ' '* | 'NL')+;
+NL: ('\r'? '\n' [ \t]* | 'NL')+;
 INDENT: 'INDENT\n';
 DEDENT: 'DEDENT\n';
 
