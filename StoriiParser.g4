@@ -9,7 +9,7 @@ program: system;
 
 proc: NL | block;
 block: INDENT system DEDENT;
-system: gate* room (gate room)* gate*;
+system: gate* room (gate* room)* gate*;
 gate: '==' NL;
 
 room: (path | split)+;
